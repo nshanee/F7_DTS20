@@ -15,55 +15,6 @@ a {
     clear: left;
 }
 
-.container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-    background-size: cover;
-    color: white;
-    text-align: center;
-}
-
-.top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-}
-
-.top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 3px;
-}
-
-.btn-wrapper {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.btn-wrapper p {
-    margin: 10px 0;
-}
-
-.signup {
-    background-color: #239b76;
-}
-
-.facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
-}
-
-.twitter {
-    background-color: #55acee;
-}
-
 .btn {
     padding: 12px 24px;
     color: white;
@@ -77,8 +28,13 @@ a {
     opacity: 1;
 }
 
-.fa {
-    margin-right: 5px;
+/* Stylesheet Moni Yunitasari */
+
+.container-header {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 header {
@@ -88,6 +44,14 @@ header {
     position: fixed;
     top: 0;
     z-index: 10;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
 }
 
 .logo {
@@ -117,18 +81,75 @@ header {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-/* Tambahkan CSS untuk menu-icon */
-.menu-icon {
+/* End Stylesheet Moni Yunitasari */
+
+/* Stylesheet Lutfi */
+
+.hal-utama {
+    padding: 180px 0 100px 0;
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size: cover;
     color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    /* Gantikan property display ke none */
-    display: none;
+    text-align: center;
 }
 
+.hal-utama h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
 
-.lesson-wrapper {
+.hal-utama p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+}
+
+.container-hal-utama {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+/* End Stylesheet Lutfi */
+
+/* Stylesheet data4pass */
+
+.container-ekstra-1 {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.ekstra-1 {
     padding-bottom: 80px;
     padding-left: 5%;
     padding-right: 5%;
@@ -136,13 +157,13 @@ header {
     text-align: center;
 }
 
-.heading {
+.heading-ekstra-1 {
     padding-top: 80px;
     padding-bottom: 50px;
     color: #5f5d60;
 }
 
-.heading h2 {
+.heading-ekstra-1 h2 {
     font-weight: normal;
 }
 
@@ -170,14 +191,34 @@ header {
     color: #b3aeb5;
 }
 
-.heading h3 {
-    font-weight: normal;
-}
+/*End Stylesheet data4pass */
 
-.message-wrapper {
+/* Stylesheet M. Akbar Insani */
+.ekstra-2 {
     border-bottom: 1px solid #eee;
     padding-bottom: 80px;
     text-align: center;
+}
+
+.container-ekstra-2 {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.heading-ekstra-2 {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+}
+
+.heading-ekstra-2 h2 {
+    font-weight: normal;
+}
+
+.heading-ekstra-2 h3 {
+    font-weight: normal;
 }
 
 .message {
@@ -193,6 +234,10 @@ header {
     box-shadow: none;
 }
 
+/* End Stylesheet M. Akbar Insani */
+
+/* Stylesheet kriskiluki */
+
 footer img {
     width: 125px;
 }
@@ -206,3 +251,5 @@ footer {
     padding-top: 30px;
     padding-bottom: 20px;
 }
+
+/* End Stylesheet kriskiluki */
