@@ -141,6 +141,14 @@ header {
 /* End Stylesheet Lutfi */
 
 /* Stylesheet data4pass */
+.lessons{
+    display:flex;
+    justify-content: center;
+}
+
+.lesson-icon img{
+    width: 200px;
+}
 
 .container-ekstra-1 {
     max-width: 1170px;
@@ -150,7 +158,7 @@ header {
 }
 
 .ekstra-1 {
-    padding-bottom: 80px;
+    padding-bottom: 40px;
     padding-left: 5%;
     padding-right: 5%;
     background-color: #f7f7f7;
@@ -158,8 +166,8 @@ header {
 }
 
 .heading-ekstra-1 {
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 25px;
     color: #5f5d60;
 }
 
@@ -177,10 +185,11 @@ header {
 }
 
 .lesson-icon p {
-    position: absolute;
-    top: 44%;
+    /* position: absolute; */
+    /* top: 44%; */
+    margin-bottom: 0;
     width: 100%;
-    color: white;
+    color: #222;
 }
 
 .text-contents {
