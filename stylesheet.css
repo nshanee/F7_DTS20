@@ -238,18 +238,71 @@ header {
 
 /* Stylesheet kriskiluki */
 
-footer img {
-    width: 125px;
+.f1{
+  background-color: rgb(98, 97, 112);
+  height: 120px;
+}
+.f2{
+  background-color: black;
+  height: 30px;
+}
+.f2 p{
+  color: white;
+  margin:0px;
+  padding-top: 3px;
+}
+footer{
+  text-align: center;
 }
 
-footer p {
-    color: #b3aeb5;
-    font-size: 12px;
+.sub {
+  color: #02ccba;
+  float: left;
+  width: 33%;
 }
-
-footer {
-    padding-top: 30px;
-    padding-bottom: 20px;
+.sub h4{
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+.sub p{
+  color: aliceblue;
+  width: 50%;
+  margin: auto;
+  font-size: 14px;
+}
+.fa {
+  margin:5px;
+  color: rgb(98, 97, 112);
+}
+.twitter {
+  background-color: #dfe6a9;
+}
+.instagram {
+  background-color: #dfe6a9;
+}
+.facebook {
+  background-color: #dfe6a9;
+}
+.envelope {
+  background-color: #dfe6a9;
+}
+.youtube {
+  background-color: #dfe6a9;
+}
+.btn {
+  height: 40px;
+  width: 40px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius:50%;
+  transition: all 0.5s;
+  
+}
+.btn:hover{
+  height: 45px;
+  width: 45px;
+  background-color: rgb(185, 184, 197);
 }
 
 /* End Stylesheet kriskiluki */
