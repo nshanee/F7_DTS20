@@ -10,17 +10,13 @@
     .heading-ekstra-1 h2 {
         font-size: 20px;
     }
-
     .lesson {
         width: 50%;
-        margin-bottom: 50px;
         margin-bottom: 25px;
     }
-
     .lesson-icon img{
         width: 150px;
     }
-
     /* Stylesheet M. Akbar Insani */
     .heading-ekstra-2 h2 {
         font-size: 20px;
@@ -32,7 +28,6 @@
     .btn {
         width: 100%;
     }
-
     /* Stylesheet Moni Yunitasari */
     .header-right {
         display: none;
@@ -65,15 +60,15 @@
     .lessons{
         flex-direction: column;
     }
-
     .lesson {
         width: 100%;
     }
-
     .lesson-icon img{
         width: 150px;
     }
-
+    .ekstra-1{
+        padding-bottom:20px;
+    }
     /* Stylesheet kriskiluki */
     footer {
         text-align: center;

@@ -145,11 +145,9 @@ header {
     display:flex;
     justify-content: center;
 }
-
 .lesson-icon img{
     width: 200px;
 }
-
 .container-ekstra-1 {
     max-width: 1170px;
     width: 100%;
