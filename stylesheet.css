@@ -227,6 +227,7 @@ header {
 .cards {
     display:flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -254,8 +255,7 @@ header {
     border: 5px solid white;
     margin-top: -45px;
     border-radius: 50%;
-    /*background-image: url(https://prog-8.com/images/html/advanced/top_en.png);*/
-    background-color: white;
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
     background-position: -34px 59px;
     background-size: cover;
     transition: transform 0.5s;
