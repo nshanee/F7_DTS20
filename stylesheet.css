@@ -40,7 +40,7 @@ a {
 header {
     height: 65px;
     width: 100%;
-    background-color: rgba(34, 49, 52, 0.9);
+    background-color:rgba(48, 51, 107,1.0);
     position: fixed;
     top: 0;
     z-index: 10;
@@ -55,14 +55,17 @@ header {
 }
 
 .logo {
-    width: 124px;
-    margin-top: 20px;
+    width: 120px;
+    opacity:0.8; padding: 0 5px;
 }
 
 .header-left {
     float: left;
 }
 
+.header-left h1 {color: white;
+float:left; padding: 0 10px; opacity: 0.8;
+line-height: 30px}
 .header-right {
     float: right;
     margin-right: -25px;
