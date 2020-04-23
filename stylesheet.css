@@ -228,7 +228,8 @@ line-height: 30px}
 }
 
 .heading-ekstra-2 span {
-    color: red;
+    font-weight: bold;
+    color: #ff4a4a;
 }
 
 .cards {
