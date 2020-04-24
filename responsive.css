@@ -13,12 +13,26 @@
 
     .lesson {
         width: 50%;
-        margin-bottom: 50px;
+        margin-bottom: 25px;
+    }
+
+    .lesson-icon img{
+        width: 150px;
     }
 
     /* Stylesheet M. Akbar Insani */
     .heading-ekstra-2 h2 {
         font-size: 20px;
+    }
+
+    .cards {
+        justify-content: center;
+        flex-wrap: wrap;
+    }    
+
+    .card {
+        width: 25%;
+        margin: 30px 20px;
     }
 }
 
@@ -27,7 +41,6 @@
     .btn {
         width: 100%;
     }
-
     /* Stylesheet Moni Yunitasari */
     .header-right {
         display: none;
@@ -57,8 +70,31 @@
     }
 
     /* Stylesheet data4pass */
+    .lessons{
+        flex-direction: column;
+    }
+
     .lesson {
         width: 100%;
+    }
+
+    .lesson-icon img{
+        width: 150px;
+    }
+
+    .ekstra-1{
+        padding-bottom:20px;
+    }
+
+    /* Stylesheet Akbar Insani */
+    .cards {
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .card {
+        width: 50%;
+        margin: 30px auto;
     }
 
     /* Stylesheet kriskiluki */
