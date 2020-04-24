@@ -328,26 +328,26 @@ footer{
   margin: auto;
   font-size: 14px;
 }
-.fa {
+.fa-footer {
   margin:5px;
   color: rgb(98, 97, 112);
 }
-.twitter {
+.twitter-footer {
   background-color: #dfe6a9;
 }
-.instagram {
+.instagram-footer {
   background-color: #dfe6a9;
 }
-.facebook {
+.facebook-footer {
   background-color: #dfe6a9;
 }
-.envelope {
+.envelope-footer {
   background-color: #dfe6a9;
 }
-.youtube {
+.youtube-footer {
   background-color: #dfe6a9;
 }
-.btn {
+.btn-footer {
   height: 40px;
   width: 40px;
   color: white;
@@ -357,7 +357,7 @@ footer{
   transition: all 0.5s;
   
 }
-.btn:hover{
+.btn-footer:hover{
   height: 45px;
   width: 45px;
   background-color: rgb(185, 184, 197);
