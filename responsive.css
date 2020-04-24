@@ -46,8 +46,42 @@
         display: none;
     }
 
+    .topnav .header-right a {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+    .topnav .header-left,
+    .topnav .header-right {
+        float: none;
+    }
+
+    .topnav .responsive {
+        position: relative;
+    }
+    
+    .topnav .responsive .menu-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav .responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .topnav.responsive .header-left a {
+        display: inline-block;
+    }
+
     .menu-icon {
         display: block;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
     /* Stylesheet Lutfi */
