@@ -57,6 +57,8 @@
     .topnav .header-right {
         float: none;
     }
+    
+    .header-left h1 {font-size: 28px}
 
     .topnav .responsive {
         position: relative;
