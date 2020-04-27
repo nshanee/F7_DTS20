@@ -51,11 +51,6 @@
         display: none;
     }
 
-    .menu-icon {
-        float: right;
-        display: block !important;
-    }
-
     .topnav .header-left,
     .topnav .header-right {
         float: none;
@@ -69,7 +64,9 @@
         position: relative;
     }
 
-    .topnav .responsive .menu-icon {
+    .menu-icon {
+        display: block !important;
+        float: right;
         position: absolute;
         right: 0;
         top: 0;
@@ -89,17 +86,10 @@
         font-size: 25px
     }
 
-    .menu-icon {
-        display: block;
-        float: right;
-        position: absolute;
-        right: auto;
-        top: 0;
-    }
-
     .logo {
         width: 120px;
         float: right;
+        margin-right: 50px;
     }
 
     /* Stylesheet Lutfi */
