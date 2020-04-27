@@ -16,7 +16,7 @@
         margin-bottom: 25px;
     }
 
-    .lesson-icon img{
+    .lesson-icon img {
         width: 150px;
     }
 
@@ -28,7 +28,7 @@
     .cards {
         justify-content: center;
         flex-wrap: wrap;
-    }    
+    }
 
     .card {
         width: 25%;
@@ -41,6 +41,7 @@
     .btn {
         width: 100%;
     }
+
     /* Stylesheet Moni Yunitasari */
     .header-right {
         display: none;
@@ -49,31 +50,37 @@
     .topnav .header-right a {
         display: none;
     }
-    .topnav a.icon {
+
+    .topnav a .menu-icon {
         float: right;
         display: block;
     }
+
     .topnav .header-left,
     .topnav .header-right {
         float: none;
     }
-    
-    .header-left h1 {font-size: 28px}
+
+    .header-left h1 {
+        font-size: 28px
+    }
 
     .topnav .responsive {
         position: relative;
     }
-    
+
     .topnav .responsive .menu-icon {
         position: absolute;
         right: 0;
         top: 0;
     }
+
     .topnav .responsive a {
         float: none;
         display: block;
         text-align: center;
     }
+
     .topnav.responsive .header-left a {
         display: inline-block;
     }
@@ -91,7 +98,7 @@
         text-align: left;
     }
 
-    .facebook {
+    .dts {
         margin-bottom: 10px;
     }
 
@@ -106,7 +113,7 @@
     }
 
     /* Stylesheet data4pass */
-    .lessons{
+    .lessons {
         flex-direction: column;
     }
 
@@ -114,12 +121,12 @@
         width: 100%;
     }
 
-    .lesson-icon img{
+    .lesson-icon img {
         width: 150px;
     }
 
-    .ekstra-1{
-        padding-bottom:20px;
+    .ekstra-1 {
+        padding-bottom: 20px;
     }
 
     /* Stylesheet Akbar Insani */
@@ -127,7 +134,7 @@
         justify-content: center;
         flex-direction: column;
     }
-    
+
     .card {
         width: 50%;
         margin: 30px auto;
@@ -136,5 +143,9 @@
     /* Stylesheet kriskiluki */
     footer {
         text-align: center;
+    }
+
+    .f1 {
+        height: 180px;
     }
 }

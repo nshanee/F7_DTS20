@@ -5,90 +5,96 @@
 }
 
 body {
-    margin: 0;
-    font-family: "Lucida Grande";
+  margin: 0;
+  font-family: "Lucida Grande";
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .clear {
-    clear: left;
+  clear: left;
 }
 
 .btn {
-    padding: 12px 20px;
-    color: black;
-    background-color: #00FF00;
-    display: inline-block;
-    opacity: 0.5;
-    border-radius: 4px;
-    text-align: center;
-    width:140px;
-    box-shadow: 5px 5px 5px;
+  padding: 12px 20px;
+  color: black;
+  background-color: #00FF00;
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 4px;
+  text-align: center;
+  width: 140px;
+  box-shadow: 5px 5px 5px;
 }
 
 .btn:hover {
   color: #fff;
   outline: 0;
 }
-}
 
 /* Stylesheet Moni Yunitasari */
 
 .container-header {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 header {
-    height: 65px;
-    width: 100%;
-    background-color:rgba(48, 51, 107,1.0);
-    position: fixed;
-    top: 0;
-    z-index: 10;
+  height: 65px;
+  width: 100%;
+  background-color: rgba(48, 51, 107, 1.0);
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .menu-icon {
-    display: none;
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
+  display: none;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
 }
 
 .logo {
-    width: 120px;
-    opacity:0.8; padding: 0 5px;
+  width: 120px;
+  opacity: 0.8;
+  padding: 0 5px;
 }
 
 .header-left {
-    float: left;
+  float: left;
+  margin-left: 20px;
 }
 
-.header-left h1 {color: white;
-float:left; padding: 0 10px; opacity: 0.8;
-line-height: 30px}
+.header-left h1 {
+  color: white;
+  float: left;
+  padding: 0 10px;
+  opacity: 0.8;
+  line-height: 30px
+}
+
 .header-right {
-    float: right;
-    margin-right: -25px;
+  float: right;
+  margin-right: 20px;
 }
 
 .header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
 }
 
 .header-right a:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /* End Stylesheet Moni Yunitasari */
@@ -96,47 +102,47 @@ line-height: 30px}
 /* Stylesheet Lutfi */
 
 .hal-utama {
-    padding: 180px 0 100px 0;
-    background-image: url(https://hspacademy.com/wp-content/uploads/2014/04/Background-web-01.jpg);
-    background-size: cover;
-    text-align: center;
+  padding: 180px 0 100px 0;
+  background-image: url(https://hspacademy.com/wp-content/uploads/2014/04/Background-web-01.jpg);
+  background-size: cover;
+  text-align: center;
 }
 
 .container-hal-utama h1 {
-    font-size: 45px;
-    letter-spacing: 5px;
-    color: #7FFF00;
-    opacity: 0.7;
-    margin-bottom: 8px;
-    padding-bottom: 10PX;
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: #7FFF00;
+  opacity: 0.7;
+  margin-bottom: 8px;
+  padding-bottom: 10PX;
 }
 
 .hal-utama p {
-    opacity: 0.7;
-    margin-bottom: 10px;
-    color:#F8F8FF;
+  opacity: 0.7;
+  margin-bottom: 10px;
+  color: #F8F8FF;
 }
 
 .container-hal-utama {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 
 .container-hal-utama h2 {
-  color:#F8F8FF;
+  color: #F8F8FF;
   opacity: 0.7;
 }
 
 .btn-wrapper {
-    text-align: center;
-    margin: 20px 0;
+  text-align: center;
+  margin: 20px 0;
 }
 
 .dts progate {
-    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
 .dts:hover {
@@ -151,187 +157,194 @@ line-height: 30px}
 /* End Stylesheet Lutfi */
 
 /* Stylesheet data4pass */
-.lessons{
-    display:flex;
-    justify-content: center;
+.lessons {
+  display: flex;
+  justify-content: center;
 }
-.lesson-icon img{
-    width: 200px;
+
+.lesson-icon img {
+  width: 200px;
 }
+
 .container-ekstra-1 {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .ekstra-1 {
-    padding-bottom: 40px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #f7f7f7;
-    text-align: center;
+  padding-bottom: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
 }
 
 .heading-ekstra-1 {
-    padding-top: 80px;
-    padding-bottom: 25px;
-    color: #5f5d60;
+  padding-top: 80px;
+  padding-bottom: 25px;
+  color: #5f5d60;
 }
 
 .heading-ekstra-1 h2 {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .lesson {
-    float: left;
-    width: 25%;
+  float: left;
+  width: 25%;
 }
 
 .lesson-icon {
-    position: relative;
+  position: relative;
 }
 
 .lesson-icon p {
-    margin-bottom: 0;
-    width: 100%;
-    color: #222;
+  margin-bottom: 0;
+  width: 100%;
+  color: #222;
 }
 
 .text-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 15px;
-    color: #b3aeb5;
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
 }
 
 /*End Stylesheet data4pass */
 
 /* Stylesheet M. Akbar Insani */
 .ekstra-2 {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 0;
-    text-align: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0;
+  text-align: center;
 }
 
 .container-ekstra-2 {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 .heading-ekstra-2 {
-    padding-top: 80px;
-    padding-bottom: 20px;
-    color: #5f5d60;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  color: #5f5d60;
 }
 
 .heading-ekstra-2 h2 {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 .heading-ekstra-2 span {
-    font-weight: bold;
-    color: #ff4a4a;
+  font-weight: bold;
+  color: #ff4a4a;
 }
 
 .cards {
-    display:flex;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
-    width: 200px;
-    background-size: cover;
-    box-shadow: 1px 1px 4px black;
-    margin: 30px auto;
-    border-radius: 10px;
+  width: 200px;
+  background-size: cover;
+  box-shadow: 1px 1px 4px black;
+  margin: 30px auto;
+  border-radius: 10px;
 }
 
 /* Animation on Scroll */
 @keyframes anim1 {
-    from {
-      transform: translateY(-100px);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
-  }
-  
-  .animate {
+  from {
+    transform: translateY(-100px);
     opacity: 0;
   }
 
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate {
+  opacity: 0;
+}
+
 .card .img img {
-    width: 100%;
-    height: 120px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .profile {
-    text-align: center;
+  text-align: center;
 }
 
-.card .profile img{
-    width: 80px;
-    height: 80px;
-    border: 5px solid white;
-    margin-top: -45px;
-    border-radius: 50%;
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-    background-position: -34px 59px;
-    background-size: cover;
-    transition: transform 0.5s;
+.card .profile img {
+  width: 80px;
+  height: 80px;
+  border: 5px solid white;
+  margin-top: -45px;
+  border-radius: 50%;
+  background-image: url(https://hspacademy.com/wp-content/uploads/2014/04/Background-web-01.jpg);
+  background-position: -34px 59px;
+  background-size: cover;
+  transition: transform 0.5s;
 }
 
 .profile img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .profile h6 {
-    margin-top: -15px;
-    color: grey;
-    font-size: 8px;
-    letter-spacing: 2px;
+  margin-top: -15px;
+  color: grey;
+  font-size: 8px;
+  letter-spacing: 2px;
 }
 
 .icons a {
-    text-decoration: none;
-    color: black;
-    margin: 20px 10px;
-    font-size: 20px;
-    display: inline-block;
-    transition: transform 0.6s;
+  text-decoration: none;
+  color: black;
+  margin: 20px 10px;
+  font-size: 20px;
+  display: inline-block;
+  transition: transform 0.6s;
 }
 
 .icons a:hover {
-    color: #543276;
-    transform: scale(1.5);
+  color: #543276;
+  transform: scale(1.5);
 }
+
 /* End Stylesheet M. Akbar Insani */
 
 /* Stylesheet kriskiluki */
 
-.f1{
+.f1 {
   background-color: rgb(98, 97, 112);
   height: 120px;
 }
-.f2{
+
+.f2 {
   background-color: black;
   height: 30px;
 }
-.f2 p{
+
+.f2 p {
   color: white;
-  margin:0px;
+  margin: 0px;
   padding-top: 3px;
 }
-footer{
+
+footer {
   text-align: center;
 }
 
@@ -341,46 +354,56 @@ footer{
   float: left;
   width: 33%;
 }
-.sub h4{
+
+.sub h4 {
   color: aliceblue;
   margin-bottom: 10px;
 }
-.sub p{
+
+.sub p {
   color: aliceblue;
   width: 50%;
   margin: auto;
   font-size: 14px;
 }
+
 .fa-footer {
-  margin:5px;
+  margin: 5px;
   color: rgb(98, 97, 112);
 }
+
 .twitter-footer {
   background-color: #dfe6a9;
 }
+
 .instagram-footer {
   background-color: #dfe6a9;
 }
+
 .facebook-footer {
   background-color: #dfe6a9;
 }
+
 .envelope-footer {
   background-color: #dfe6a9;
 }
+
 .youtube-footer {
   background-color: #dfe6a9;
 }
+
 .btn-footer {
   height: 40px;
   width: 40px;
   color: white;
   display: inline-block;
   opacity: 0.8;
-  border-radius:50%;
+  border-radius: 50%;
   transition: all 0.5s;
-  
+
 }
-.btn-footer:hover{
+
+.btn-footer:hover {
   height: 45px;
   width: 45px;
   background-color: rgb(185, 184, 197);
