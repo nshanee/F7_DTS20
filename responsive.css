@@ -57,7 +57,7 @@
     }
 
     .header-left h1 {
-        font-size: 28px
+        font-size: 20px
     }
 
     .topnav .responsive {
@@ -80,10 +80,6 @@
 
     .topnav .header-right .responsive a {
         display: inline-block;
-    }
-
-    .header-left h1 {
-        font-size: 20px
     }
 
     .logo {
