@@ -85,6 +85,10 @@
         display: inline-block;
     }
 
+    .header-left h1 {
+        font-size: 28px
+    }
+
     .menu-icon {
         display: block;
         float: right;
