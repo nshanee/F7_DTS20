@@ -52,14 +52,6 @@ header {
   z-index: 10;
 }
 
-.menu-icon {
-  display: none;
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-}
-
 .logo {
   width: 120px;
   opacity: 0.8;
@@ -68,7 +60,6 @@ header {
 
 .header-left {
   float: left;
-  margin-left: 20px;
 }
 
 .header-left h1 {
@@ -81,7 +72,6 @@ header {
 
 .header-right {
   float: right;
-  margin-right: 20px;
 }
 
 .header-right a {
@@ -91,6 +81,14 @@ header {
   display: block;
   float: left;
   transition: all 0.5s;
+}
+
+.menu-icon {
+  display: none !important;
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 25px;
 }
 
 .header-right a:hover {
@@ -141,7 +139,7 @@ header {
   margin: 20px 0;
 }
 
-.dts progate {
+.dts .progate {
   transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
@@ -329,19 +327,19 @@ header {
 /* Stylesheet kriskiluki */
 
 .f1 {
-  background-color: rgb(98, 97, 112);
+  background-color: rgb(65, 73, 175);
   height: 120px;
 }
 
 .f2 {
-  background-color: black;
-  height: 30px;
+  background-color: rgba(48, 51, 107);
+  height: 60px;
 }
 
 .f2 p {
   color: white;
   margin: 0px;
-  padding-top: 3px;
+  padding: 10px;
 }
 
 footer {
@@ -372,23 +370,7 @@ footer {
   color: rgb(98, 97, 112);
 }
 
-.twitter-footer {
-  background-color: #dfe6a9;
-}
-
-.instagram-footer {
-  background-color: #dfe6a9;
-}
-
-.facebook-footer {
-  background-color: #dfe6a9;
-}
-
-.envelope-footer {
-  background-color: #dfe6a9;
-}
-
-.youtube-footer {
+.github-footer {
   background-color: #dfe6a9;
 }
 
@@ -400,13 +382,17 @@ footer {
   opacity: 0.8;
   border-radius: 50%;
   transition: all 0.5s;
-
 }
 
 .btn-footer:hover {
   height: 45px;
   width: 45px;
   background-color: rgb(185, 184, 197);
+}
+
+.footer-logo img {
+  height: 45px;
+  width: auto;
 }
 
 /* End Stylesheet kriskiluki */

@@ -51,9 +51,9 @@
         display: none;
     }
 
-    .topnav a .menu-icon {
+    .menu-icon {
         float: right;
-        display: block;
+        display: block !important;
     }
 
     .topnav .header-left,
@@ -81,7 +81,7 @@
         text-align: center;
     }
 
-    .topnav.responsive .header-left a {
+    .topnav .header-right .responsive a {
         display: inline-block;
     }
 
@@ -146,6 +146,11 @@
     }
 
     .f1 {
-        height: 180px;
+        height: 120px;
+    }
+
+    .footer-logo img {
+        height: 25px;
+        width: auto;
     }
 }
