@@ -18,16 +18,21 @@ a {
 }
 
 .btn {
-    padding: 12px 24px;
-    color: white;
+    padding: 12px 20px;
+    color: black;
+    background-color: #00FF00;
     display: inline-block;
-    opacity: 0.8;
+    opacity: 0.5;
     border-radius: 4px;
     text-align: center;
+    width:140px;
+    box-shadow: 5px 5px 5px;
 }
 
 .btn:hover {
-    opacity: 1;
+  color: #fff;
+  outline: 0;
+}
 }
 
 /* Stylesheet Moni Yunitasari */
@@ -92,22 +97,24 @@ line-height: 30px}
 
 .hal-utama {
     padding: 180px 0 100px 0;
-    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-image: url(https://hspacademy.com/wp-content/uploads/2014/04/Background-web-01.jpg);
     background-size: cover;
-    color: white;
     text-align: center;
 }
 
-.hal-utama h1 {
-    opacity: 0.7;
+.container-hal-utama h1 {
     font-size: 45px;
     letter-spacing: 5px;
-    margin-bottom: 10px;
+    color: #7FFF00;
+    opacity: 0.7;
+    margin-bottom: 8px;
+    padding-bottom: 10PX;
 }
 
 .hal-utama p {
     opacity: 0.7;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
+    color:#F8F8FF;
 }
 
 .container-hal-utama {
@@ -117,31 +124,29 @@ line-height: 30px}
     margin: 0 auto;
 }
 
+
+.container-hal-utama h2 {
+  color:#F8F8FF;
+  opacity: 0.7;
+}
+
 .btn-wrapper {
     text-align: center;
     margin: 20px 0;
 }
 
-.btn-wrapper p {
-    margin: 10px 0;
+.dts progate {
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
 }
 
-.signup {
-    background-color: #239b76;
+.dts:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
 }
 
-.facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
+.progate:hover {
+  box-shadow: 0 0 40px 40px #e74c3c inset;
 }
 
-.twitter {
-    background-color: #55acee;
-}
-
-.fa {
-    margin-right: 5px;
-}
 
 /* End Stylesheet Lutfi */
 
