@@ -86,15 +86,20 @@
     }
 
     .header-left h1 {
-        font-size: 28px
+        font-size: 25px
     }
 
     .menu-icon {
         display: block;
         float: right;
         position: absolute;
-        right: 0;
+        right: auto;
         top: 0;
+    }
+
+    .logo {
+        width: 120px;
+        float: right;
     }
 
     /* Stylesheet Lutfi */
